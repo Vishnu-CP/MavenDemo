@@ -24,6 +24,8 @@ public class ALienServlet extends HttpServlet {
 		
 		RequestDispatcher rd = req.getRequestDispatcher("alien.jsp");
 		rd.forward(req, resp);
+		System.out.println("AlienServlet --> Added from git");
+		System.out.println("AlienServlet --> Added from Local");
 	}
 
 }
