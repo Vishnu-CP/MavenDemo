@@ -27,6 +27,7 @@ public class LoginServlet extends HttpServlet {
 			resp.getWriter().println("Invalid Credentials");
 			resp.sendRedirect("login.jsp");
 			System.out.println("else --Git Edit");
+			System.out.println("Test-Local");
 		}
 	}
 }
