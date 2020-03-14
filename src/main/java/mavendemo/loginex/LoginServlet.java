@@ -21,12 +21,12 @@ public class LoginServlet extends HttpServlet {
 			HttpSession session = req.getSession();
 			session.setAttribute("uname", uname);
 			resp.sendRedirect("welcome.jsp");
-			System.out.println("If");
+			System.out.println("If -- Git edit");
 		}
 		else {
 			resp.getWriter().println("Invalid Credentials");
 			resp.sendRedirect("login.jsp");
-			System.out.println("else");
+			System.out.println("else --Git Edit");
 		}
 	}
 }
