@@ -19,7 +19,7 @@ protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws Se
 	if(session != null){
 		session.removeAttribute("uname");
 		session.invalidate();
-		System.out.println("Session is deleted")
+		System.out.println("Session is deleted");
 	}
 	resp.sendRedirect("login.jsp");
 }
